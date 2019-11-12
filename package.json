@@ -25,6 +25,9 @@
       "browser": true
     }
   },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  },
   "scripts": {
     "serve": "webpack-dev-server",
     "jest": "jest"
