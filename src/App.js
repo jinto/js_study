@@ -4,7 +4,7 @@ class TestClass {
   }
 }
 
-const js = import("../node_modules/@jaypark/hello-wasm/hello_wasm.js");
+//const js = import("../node_modules/@jaypark/hello-wasm/hello_wasm.js");
 //js.then(js => {
   //js.greet("웹어셈블리");
 //});
