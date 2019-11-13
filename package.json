@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
+    "@jaypark/hello-wasm": "^0.1.1",
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
     "babel-jest": "^24.9.0",
@@ -26,7 +27,9 @@
     }
   },
   "babel": {
-    "presets": ["@babel/preset-env"]
+    "presets": [
+      "@babel/preset-env"
+    ]
   },
   "scripts": {
     "serve": "webpack-dev-server",
